@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="colorChanger.js"></script>
+</head>
+
+<body onload="myColor()">
+    
+    <header>Your favorite color is:<input type="text" id="favorite" size="20"/></header> 
+
+    <select id="mylist" onchange="myColor()">
+        <option value="Red">Red</option>
+        <option value="Orange">Orange</option>
+        <option value="Yellow">Yellow</option>
+        <option value="Green">Green</option>
+        <option value="Blue">Blue</option>
+        <option value="Indigo">Indigo</option>
+        <option value="Violet">Violet</option>
+    </select>
+
+    <ul id="availableColors">
+        <li>Red</li>
+        <li>Orange</li>
+        <li>Yellow</li>
+        <li>Green</li>
+        <li>Blue</li>
+        <li>Indigo</li>
+        <li>Violet</li>
+    </ul>
+</body>
+</html>
